@@ -1,0 +1,67 @@
+/* CSS styles for election.php page */
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+/* Heading styles */
+h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+/* Election container styles */
+.election-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Election card styles */
+.election-card {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.election-card h2 {
+    font-size: 18px;
+    color: #333;
+    margin: 0;
+}
+
+.election-card p {
+    font-size: 14px;
+    color: #777;
+    margin-top: 5px;
+}
+
+/* Button styles */
+.btn {
+    display: inline-block;
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Error message styles */
+.error-message {
+    color: red;
+    margin-top: 10px;
+}
